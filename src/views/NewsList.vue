@@ -7,9 +7,9 @@
       <van-col span="24">
         <van-row gutter="14" class="pic">
           <van-col span="12">
-            <img  :src=item.thumbnail_pic_s></van-col>
+            <img  v-lazy=item.thumbnail_pic_s></van-col>
           <van-col span="12">
-            <img  :src=item.thumbnail_pic_s02></van-col>
+            <img  v-lazy=item.thumbnail_pic_s02></van-col>
         </van-row>
       </van-col>
       <van-col span="24">
